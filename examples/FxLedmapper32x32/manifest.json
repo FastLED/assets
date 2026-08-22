@@ -1,0 +1,66 @@
+{
+  "$schema": "https://zackees.github.io/manifest.json/v1/manifest.schema.json",
+  "kind": "Catalog",
+  "schema_version": 1,
+  "tool": "FxLedmapper32x32",
+  "online_url": "https://raw.githubusercontent.com/FastLED/assets/main/examples/FxLedmapper32x32/manifest.json",
+  "channels": {
+    "latest-stable": "1.0.0",
+    "stable": "1.0.0"
+  },
+  "releases": [
+    {
+      "version": "1.0.0",
+      "published_at": "2026-08-22T00:00:00Z",
+      "urgency": "low",
+      "min_client_version": 1,
+      "components": [
+        {
+          "id": "video",
+          "required": true,
+          "platform": {},
+          "asset": {
+            "filename": "video1.rgb",
+            "media_type": "application/octet-stream",
+            "size_bytes": 6051840,
+            "sha256": "164804d94802dd96cd8cd37f7528ca6d30f8fd9396e812fe67ec6164bbdd2282",
+            "urls": [
+              "https://cdn.jsdelivr.net/gh/FastLED/assets@main/examples/FxLedmapper32x32/video1.rgb",
+              "https://raw.githubusercontent.com/FastLED/assets/main/examples/FxLedmapper32x32/video1.rgb"
+            ]
+          }
+        },
+        {
+          "id": "screenmap",
+          "required": true,
+          "platform": {},
+          "asset": {
+            "filename": "screenmap.json",
+            "media_type": "application/json",
+            "size_bytes": 13790,
+            "sha256": "a6851e2a5eaf728b0018f1a32918969b2e90673ed2c18c1a3a5d7327cf5993d7",
+            "urls": [
+              "https://cdn.jsdelivr.net/gh/FastLED/assets@main/examples/FxLedmapper32x32/screenmap.json",
+              "https://raw.githubusercontent.com/FastLED/assets/main/examples/FxLedmapper32x32/screenmap.json"
+            ]
+          }
+        },
+        {
+          "id": "bundle",
+          "required": false,
+          "platform": {},
+          "asset": {
+            "filename": "ledmapper-32x32-video1-asset.zip",
+            "media_type": "application/zip",
+            "size_bytes": 4104176,
+            "sha256": "98cd15ce4a87078e291e34f282ea74785426e0d7ef15848f9ea43c5eead0ba63",
+            "urls": [
+              "https://cdn.jsdelivr.net/gh/FastLED/assets@main/examples/FxLedmapper32x32/ledmapper-32x32-video1-asset.zip",
+              "https://raw.githubusercontent.com/FastLED/assets/main/examples/FxLedmapper32x32/ledmapper-32x32-video1-asset.zip"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

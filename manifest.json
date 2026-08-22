@@ -1,0 +1,17 @@
+{
+  "$schema": "https://zackees.github.io/manifest.json/v1/manifest.schema.json",
+  "kind": "Index",
+  "schema_version": 1,
+  "tools": {
+    "FxLedmapper32x32": {
+      "descriptor": {
+        "url": "examples/FxLedmapper32x32/manifest.json",
+        "sha256": "587b6dcb5513acb08a1907a62ec046c65d390a81133dab0fec32562d1127b267",
+        "size_bytes": 2382,
+        "media_type": "application/vnd.manifest.v1+json"
+      },
+      "summary": "32x32 mapped raw RGB video assets for the FxLedmapper32x32 example",
+      "kind_hint": "asset"
+    }
+  }
+}
